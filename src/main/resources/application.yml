@@ -1,0 +1,8 @@
+server:
+  port: 3001
+spring:
+  data:
+    cassandra:
+      keyspace-name: vehicle_tracker
+      port: 9042
+      contact-points: localhost
