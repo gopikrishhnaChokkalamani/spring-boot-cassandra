@@ -19,4 +19,4 @@ CREATE TYPE address ( street text, city text, zip_code int, phone text);
 
 Alter table to add the new type as a column,
 
-alter table location add address frozen//<address//>;
+alter table location add address frozen\<address\>;
